@@ -3,7 +3,7 @@ const mysql = require("mysql");
 
 
 
-
+// config for your database
 var mysqlConnection = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -12,7 +12,7 @@ var mysqlConnection = mysql.createConnection({
     multipleStatements: true
 });
 
-
+// connect to your database
 mysqlConnection.connect((err) =>{
 
 if(!err)

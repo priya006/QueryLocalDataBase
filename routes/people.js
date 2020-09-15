@@ -5,6 +5,7 @@ const mysqlConnection = require("../connection");
 
 
 Router.get("/",(req, res)=>{
+     // query to the database and get the records
 mysqlConnection.query("SELECT * from people",(err,rows,fields) =>{
   if(!err){
     res.send(rows);
