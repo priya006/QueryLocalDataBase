@@ -1,5 +1,5 @@
 # QueryLocalDataBase
-Node Js server is built. Data is local mysql Database is Rendered in the Browser
+Node Js server is built. Data in local mysql Database is Rendered in the Browser as Json
 
 
 # Steps
